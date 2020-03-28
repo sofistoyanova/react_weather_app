@@ -27,21 +27,6 @@ class App extends React.Component {
       }
       return weatherData
     
-      // //icons list
-      // /*
-      //   list  = [ // listing of all possible icons
-      //           "clear-day",
-      //           "clear-night",
-      //           "partly-cloudy-day",
-      //           "partly-cloudy-night",
-      //           "cloudy",
-      //           "rain",
-      //           "sleet",
-      //           "snow",
-      //           "wind",
-      //           "fog"
-      //       ];
-      // */
     }catch(error) {
       this.setState({errorMessage: 'there is an error with the forecast'})
       console.log('forecast error', error)
